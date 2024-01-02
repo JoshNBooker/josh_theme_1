@@ -1,0 +1,114 @@
+/* 
+
+Theme Name: JoshTheme
+Text Domain: JoshTheme
+Version: 1.0
+Description: Emulation of the rest of my portfolio website
+Tags: gradient, responsive
+Author: Josh Booker
+Author: URI: https://portfolio-josh-vert.vercel.app/
+
+*/
+html {
+	font-family: 'Roboto', sans-serif; /* You can choose a different font */
+	line-height: 1.6;
+	color: #333;
+}
+
+/* Header styling */
+.header {
+	background-color: #1a1a1a;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+/* Navigation styling */
+nav {
+	background-color: #333;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+nav a:hover {
+	color: #ff6f61; /* Highlight color */
+}
+
+/* Main content area */
+main {
+	padding: 40px;
+}
+
+/* Article styling */
+article {
+	margin-bottom: 40px;
+}
+
+/* Sidebar styling */
+aside {
+	width: 30%;
+	padding: 20px;
+	background-color: #f2f2f2;
+}
+
+/* Footer styling */
+footer {
+	background-color: #1a1a1a23;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+	aside {
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+
+.container {
+	background: linear-gradient(to right, #ed561a, #a2e8e1);
+	height: 100vh;
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.code-snippet {
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: rgb(96, 91, 91);
+}
+
+.code {
+	background-color: #9a9999aa;
+	padding: 10px;
+	border-radius: 5px;
+	overflow-x: auto;
+	font-size: x-large;
+}
